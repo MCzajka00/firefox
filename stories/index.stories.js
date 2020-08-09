@@ -55,3 +55,47 @@ export const Header = () => `<div class="container">
   <a href="" class="download">Pobierz&nbsp;Firefoxa</a>
 </header>
 </div>`;
+
+export const MainHeader = () => `<main class="main__header">
+<section class="box__firefox">
+  <div class="firefox">
+    <section class="firefox__place">
+      <img
+        class="firefox__logo"
+        src="./dist/images/firefox.svg"
+        alt="Firefox logo"
+      />
+    </section>
+    <a href="#" class="title">Szybki, już na dobre.</a><br />
+    <a href="#" class="desc"
+      >Dwa razy szybszy, z wbudowaną ochroną prywatności i Mozillą go
+      wspierającą, nowy Firefox to lepszy sposób na przeglądanie.</a
+    ><br />
+    <a href="#" class="firefox__download">Pobierz&nbsp;Firefoxa</a
+    ><br />
+    <a href="#" class="privacy">Zasady ochrony prywatności Firefoxa</a>
+  </div>
+  <!-- <div class="screen__img">
+    <img src="./dist/images/screen.png" alt="Screen image" />
+  </div> -->
+</section>
+</main>`;
+
+export const SafetyBox = () => `<main class="box__main box--main">
+<section class="safe__net">
+  <div class="dino">
+    <img src="./dist/images/dino.svg" alt="Dinosaur image" />
+  </div>
+  <div class="safe__text">
+    <span class="hdl"
+      >Sprawiamy, że Internet jest bezpieczniejszy, zdrowszy i szybszy
+      już na dobre.</span
+    ><br />
+    <span class="txt"
+      >Mozilla to organizacja non-profit wspierająca Firefoxa,
+      oryginalną alternatywną przeglądarkę. Tworzymy produkty i zasady
+      służące użytkownikom Internetu, nie zyskom.</span
+    ><br />
+  </div>
+</section>
+</main>`;

@@ -1,14 +1,15 @@
 .box__main {
-  width: 100%;
   max-width: 1420px;
-  padding: 96px 0;
+  height: 1928px;
+  padding: 24px 96px;
   margin: 0 206.5px;
-  background: #ededf0;
-  display: flex;
   .safe__net {
-    max-width: 1228px;
+    width: 1228px;
+    height: 402px;
+    background-color: #ededf0;
+    display: flex;
+    .safe__text {
+      // display: flex;
+    }
   }
-}
-
-.safe__text {
 }
