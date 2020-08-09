@@ -40,3 +40,18 @@ export const SubscriptionVertical = () => `<div>
   </button>
 </form>
 </div>`;
+
+export const Header = () => `<div class="container">
+<header class="box box--header">
+  <a href="/" class="logo">
+    <img src="./dist/images/logo.svg" alt="Mozilla logo" />
+  </a>
+  <nav class="nav">
+    <a href="#" class="nav__item">Firefox</a>
+    <a href="#" class="nav__item">Projekty</a>
+    <a href="#" class="nav__item">Deweloperzy</a>
+    <a href="#" class="nav__item">O nas</a>
+  </nav>
+  <a href="" class="download">Pobierz&nbsp;Firefoxa</a>
+</header>
+</div>`;
