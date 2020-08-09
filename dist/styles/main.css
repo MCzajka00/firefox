@@ -407,4 +407,66 @@ body {
   font-size: 1rem;
 }
 
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/inter-regular-webfont.woff2") format("woff2"), url("../fonts/inter-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter Bold";
+  src: url("../fonts/inter-bold-webfont.woff2") format("woff2"), url("../fonts/inter-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.box {
+  width: 100%;
+  max-width: 1228px;
+  height: 88px;
+  padding: 0 96px;
+  margin: 0 206.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.box .download {
+  border: 2px solid #0060df;
+  color: #0060df;
+  text-decoration: none;
+  font-family: "Inter Bold", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  padding: 8px 16px;
+}
+
+.nav {
+  width: 100%;
+  max-width: 1228px;
+  margin: auto;
+}
+.nav .nav__item {
+  text-decoration: none;
+  color: #000;
+  font-size: 1rem;
+  font-family: "Inter Bold", sans-serif;
+  line-height: 1.5;
+  margin-bottom: 0;
+  font-weight: 700;
+  min-height: 40px;
+  position: relative;
+  padding: 0 24px 24px;
+}
+
+.box .logo {
+  width: 112px;
+  height: 32px;
+  background-size: 112px, 32px;
+  padding-right: 24px;
+}
+
 /*# sourceMappingURL=main.css.map */

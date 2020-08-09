@@ -1,0 +1,17 @@
+.nav {
+  width: 100%;
+  max-width: 1228px;
+  margin: auto;
+  .nav__item {
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    font-family: "Inter Bold", sans-serif;
+    line-height: 1.5;
+    margin-bottom: 0;
+    font-weight: 700;
+    min-height: 40px;
+    position: relative;
+    padding: 0 24px 24px;
+  }
+}
