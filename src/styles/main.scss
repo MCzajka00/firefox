@@ -1,3 +1,17 @@
 @import "range";
 
 @import "subscription";
+
+// Project setup
+@import "config/normalize";
+@import "config/config";
+
+// Fonts
+@import "fonts/fonts";
+
+// Layouts
+@import "layouts/header/header";
+
+// Components
+@import "components/navigation/nav";
+@import "components/logo/logo";
