@@ -1,0 +1,22 @@
+.firefox__download {
+  width: 200.27px;
+  min-height: 56px;
+  padding: 14px 30px;
+  border: 2px solid transparent;
+  border-radius: 2px;
+  color: #fff;
+  margin-top: 0;
+  background-color: #0060df;
+  text-decoration: none;
+  font-family: "Inter Bold", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  box-sizing: border-box;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  &:hover {
+    background-color: darken($color: #0060df, $amount: 10);
+    cursor: pointer;
+  }
+}

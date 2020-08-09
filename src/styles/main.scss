@@ -11,8 +11,17 @@
 
 // Layouts
 @import "layouts/header/header";
+@import "layouts/main_header/main_header";
+@import "layouts/main_body/box_main";
 
 // Components
 @import "components/navigation/nav";
 @import "components/logo/logo";
 @import "components/misc";
+@import "components/firefox/firefox";
+@import "components/firefox/title";
+@import "components/firefox/desc";
+@import "components/firefox/button";
+@import "components/firefox/privacy";
+@import "components/firefox/screen";
+@import "components/dino/dino";

@@ -449,6 +449,37 @@ body {
   color: #fff;
 }
 
+.main__header {
+  width: 100%;
+  max-width: 1833px;
+  height: 395.109px;
+  padding: 48px 0;
+  margin: 0;
+}
+.main__header .box__firefox {
+  width: 1228px;
+  max-height: 347.109px;
+  padding: 24px 96px;
+  margin: 0 206.5px;
+  display: flex;
+}
+.main__header .box__firefox .firefox {
+  display: flex;
+  flex-direction: column;
+}
+
+.box__main {
+  width: 100%;
+  max-width: 1420px;
+  padding: 96px 0;
+  margin: 0 206.5px;
+  background: #ededf0;
+  display: flex;
+}
+.box__main .safe__net {
+  max-width: 1228px;
+}
+
 .nav {
   width: 100%;
   max-width: 1228px;
@@ -472,6 +503,93 @@ body {
   height: 32px;
   background-size: 112px, 32px;
   padding-right: 24px;
+}
+
+.firefox__place {
+  width: 566px;
+  height: 46.313px;
+  margin-bottom: 10.8px;
+  margin-top: 30px;
+  display: flex;
+}
+.firefox__place .firefox__logo {
+  width: 125px;
+  height: 41.313px;
+  justify-content: flex-start;
+}
+
+.title {
+  width: 566px;
+  height: 52px;
+  color: #000;
+  text-decoration: none;
+  font-family: "Inter Bold", sans-serif;
+  font-size: 3rem;
+  line-height: 1.1;
+  font-weight: 700;
+  margin-bottom: 24px;
+  margin-top: 0;
+}
+
+.desc {
+  width: 566px;
+  height: 48px;
+  margin-bottom: 20px;
+  margin-top: 0;
+  color: #000;
+  text-decoration: none;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.firefox__download {
+  width: 200.27px;
+  min-height: 56px;
+  padding: 14px 30px;
+  border: 2px solid transparent;
+  border-radius: 2px;
+  color: #fff;
+  margin-top: 0;
+  background-color: #0060df;
+  text-decoration: none;
+  font-family: "Inter Bold", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  box-sizing: border-box;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+.firefox__download:hover {
+  background-color: #004aac;
+  cursor: pointer;
+}
+
+.privacy {
+  width: 218.89px;
+  height: 15px;
+  color: #000000;
+  font-size: 0.75rem;
+  font-family: Inter, sans-serif;
+  text-decoration: none;
+}
+.privacy:hover {
+  text-decoration: underline;
+}
+
+.screen__img {
+  max-width: 629.52px;
+  max-height: 395.11;
+}
+
+.safe__net .dino {
+  width: 50%;
+  max-width: 364px;
+  height: 263.38px;
+  padding: 24px 8px;
+  margin-left: 224px;
+  margin-right: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
