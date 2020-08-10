@@ -1,0 +1,40 @@
+.box__piece {
+  width: 408.922px;
+  height: 327px;
+  padding: 48px 0px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  .picto__title {
+    width: 240px;
+    height: 35px;
+    margin-top: 0 !important;
+    margin-bottom: 32px !important;
+    font-family: "Zilla Slab Bold", Inter, sans-serif;
+    font-size: 1.3rem !important;
+    font-style: bold;
+    line-height: 1.1;
+    font-weight: 700;
+    color: #0060df;
+    display: flex;
+    text-align: center;
+    &:visited {
+      // podswietlają się wszystkie.
+      // color: #b833e1;
+    }
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .picto__desc {
+    width: 240px;
+    height: 120px;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #1f2033;
+    margin-bottom: 0px !important;
+    text-align: center;
+  }
+}

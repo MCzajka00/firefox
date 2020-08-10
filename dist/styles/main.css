@@ -509,6 +509,11 @@ body {
   padding: 0px 48px;
   border-left: 1px solid lightgray;
 }
+.box__main .box__picto {
+  width: 1228px;
+  height: 458px;
+  display: flex;
+}
 
 .nav {
   width: 100%;
@@ -702,6 +707,42 @@ body {
   line-height: 1.8;
   color: #0060df;
   text-decoration: underline;
+}
+.box__piece {
+  width: 408.922px;
+  height: 327px;
+  padding: 48px 0px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.box__piece .picto__title {
+  width: 240px;
+  height: 35px;
+  margin-top: 0 !important;
+  margin-bottom: 32px !important;
+  font-family: "Zilla Slab Bold", Inter, sans-serif;
+  font-size: 1.3rem !important;
+  font-style: bold;
+  line-height: 1.1;
+  font-weight: 700;
+  color: #0060df;
+  display: flex;
+  text-align: center;
+}
+.box__piece .picto__title:hover {
+  text-decoration: none;
+}
+.box__piece .picto__desc {
+  width: 240px;
+  height: 120px;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #1f2033;
+  margin-bottom: 0px !important;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */
