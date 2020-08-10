@@ -157,3 +157,77 @@ export const TextBox = () => `<main class="box__main box--main">
   </div>
 </section>
 </main>`;
+
+export const PictoBox = () => `<main class="box__main box--main">
+<section class="box__picto">
+<div class="box__piece">
+  <img
+    class="picto__enlarg"
+    src="./dist/images/picto.png"
+    alt="Enlargement picture"
+  />
+  <a href="#" class="picto__title">
+    <h2>Rozszerzenia</h2>
+  </a>
+  <span class="picto__desc"
+    >Dostosuj Firefoksa do własnych upodobań za pomocą swoich
+    ulubionych dodatków, takich jak menedżery haseł, blokowanie reklam
+    i nie tylko.</span
+  >
+</div>
+<div class="box__piece">
+  <img
+    class="picto__work"
+    src="./dist/images/picto.png"
+    alt="Work picture"
+  />
+  <a href="#" class="picto__title">
+    <h2>Praca</h2>
+  </a>
+  <span class="picto__desc"
+    >Dowiedz się więcej o korzyściach płynących z pracy w Mozilli i
+    zapoznaj się z aktualnymi ofertami pracy z całego świata.</span
+  >
+</div>
+<div class="box__piece">
+  <img
+    class="picto__help"
+    src="./dist/images/picto.png"
+    alt="Help picture"
+  />
+  <a href="#" class="picto__title">
+    <h2>Potrzebujesz pomocy?</h2>
+  </a>
+  <span class="picto__desc"
+    >Odpowiedzi na pytania dotyczące Firefoksa i wszystkich produktów
+    Mozilli znajdziesz w naszym centrum wsparcia.</span
+  >
+</div>
+</section>
+</main>`;
+
+export const FormBox = () => `<main class="box__main box--main">
+<section class="box__form">
+<div class="form__place place__img">
+  <img
+    class="form__img"
+    src="./dist/images/newsletter.png"
+    alt="Newsletter image"
+  />
+</div>
+<div class="form__place place__newsletter">
+  <h3 class="form__title">Otrzymuj wiadomości o&nbsp;Firefoksie</h3>
+  <br />
+  <label for="email" class="form__email">Adres e-mail</label><br />
+  <input
+    class="form__input"
+    type="text"
+    placeholder="e-mail@example.com"
+  /><br />
+  <a href="#" class="form__btn">Sign up now</a><br />
+  <span class="form__note">
+    Przesyłane będą wyłącznie informacje związane z Firefoksem.</span
+  ><br />
+</div>
+</section>
+</main>`;

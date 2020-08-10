@@ -18,17 +18,29 @@
 @import "components/navigation/nav";
 @import "components/logo/logo";
 @import "components/misc";
+
 @import "components/firefox/firefox";
 @import "components/firefox/title";
 @import "components/firefox/desc";
 @import "components/firefox/button";
 @import "components/firefox/privacy";
 @import "components/firefox/screen";
+
 @import "components/safe_net/dino";
 @import "components/safe_net/safe_text";
+
 @import "components/box_text/goals";
 @import "components/box_text/innov";
+
 @import "components/box__picto/box__piece";
 @import "components/box__picto/picto__enlarg";
 @import "components/box__picto/picto__work";
 @import "components/box__picto/picto__help";
+
+@import "components/box__form/form__place";
+@import "components/box__form/form__img";
+@import "components/box__form/form__title";
+@import "components/box__form/form__email";
+@import "components/box__form/form__input";
+@import "components/box__form/form__btn";
+@import "components/box__form/form__note";
