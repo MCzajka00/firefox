@@ -6,10 +6,24 @@
   .safe__net {
     width: 1228px;
     height: 402px;
+    margin: 96px 0px;
     background-color: #ededf0;
     display: flex;
-    .safe__text {
-      // display: flex;
+  }
+  .box__text {
+    width: 1228px;
+    height: 302px;
+    display: flex;
+    .box__goals {
+      width: 517px;
+      height: 278px;
+      padding: 0px 48px;
+    }
+    .box__innov {
+      width: 517px;
+      height: 278px;
+      padding: 0px 48px;
+      border-left: 1px solid lightgray;
     }
   }
 }
