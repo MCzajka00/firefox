@@ -1,2 +1,5 @@
 .picto__help {
+  &::before {
+    background-position: bottom center;
+  }
 }
