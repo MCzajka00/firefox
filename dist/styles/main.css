@@ -871,4 +871,38 @@ body {
   text-align: center;
 }
 
+.footer__primary {
+  width: 1228px;
+  height: 295px;
+  margin-bottom: 32px;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+.footer__hdl {
+  width: 1228px;
+  height: 38px;
+  margin-bottom: 32px;
+}
+
+.footer_sections {
+  width: 1228px;
+  height: 176px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid #42425a;
+  display: flex;
+}
+.footer_sections .section {
+  display: flex;
+}
+
+.section:first-child {
+  width: 271px;
+  height: 168px;
+  padding-right: 24px;
+  margin-bottom: 8px;
+}
+
 /*# sourceMappingURL=main.css.map */
