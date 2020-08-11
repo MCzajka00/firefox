@@ -1,0 +1,41 @@
+.box__main {
+  max-width: 1420px;
+  height: 1880px;
+  padding: 24px 96px;
+  margin: 0 206.5px;
+  .safe__net {
+    width: 1228px;
+    height: 402px;
+    margin: 96px 0px;
+    background-color: #ededf0;
+    display: flex;
+  }
+  .box__text {
+    width: 1228px;
+    height: 302px;
+    display: flex;
+    .box__goals {
+      width: 517px;
+      height: 278px;
+      padding: 0px 48px;
+    }
+    .box__innov {
+      width: 517px;
+      height: 278px;
+      padding: 0px 48px;
+      border-left: 1px solid lightgray;
+    }
+  }
+  .box__picto {
+    width: 1228px;
+    height: 458px;
+    display: flex;
+  }
+  .box__form {
+    width: 908px;
+    height: 386px;
+    padding: 48px 160px;
+    margin-bottom: 0px;
+    display: flex;
+  }
+}

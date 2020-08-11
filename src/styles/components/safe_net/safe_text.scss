@@ -1,0 +1,35 @@
+.safe__text {
+  width: 50%;
+  max-width: 374px;
+  max-height: 402px;
+  padding: 24px 8px;
+  color: #000000;
+  font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  .hdl {
+    width: 358px;
+    max-height: 320px;
+    margin-bottom: 18px;
+    font-family: "Inter Bold", sans-serif;
+    font-size: 2.3rem;
+    line-height: 1.1;
+    font-weight: 700;
+    text-align: center;
+  }
+  .txt {
+    width: 358px;
+    max-height: 96px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+}
