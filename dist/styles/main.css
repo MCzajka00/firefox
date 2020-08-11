@@ -482,7 +482,7 @@ body {
 
 .box__main {
   max-width: 1420px;
-  height: 1928px;
+  height: 1880px;
   padding: 24px 96px;
   margin: 0 206.5px;
 }
@@ -518,8 +518,23 @@ body {
   width: 908px;
   height: 386px;
   padding: 48px 160px;
-  margin-bottom: 24px;
+  margin-bottom: 0px;
   display: flex;
+}
+
+.footer {
+  width: 100%;
+  height: 510px;
+  padding: 24px 0px 0px;
+  background: #000;
+  color: #fff;
+  display: block;
+}
+.footer .box__footer {
+  width: 1228px;
+  height: 462px;
+  padding: 24px 96px;
+  margin: 0 206.5px;
 }
 
 .nav {
@@ -755,11 +770,10 @@ body {
 .form__place {
   width: 438px;
   height: 362px;
-  margin-top: 0px;
-  margin-bottom: 24px;
 }
 
 .place__img {
+  margin-bottom: 24px !important;
   margin-right: 2rem;
 }
 

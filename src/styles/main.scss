@@ -13,6 +13,7 @@
 @import "layouts/header/header";
 @import "layouts/main_header/main_header";
 @import "layouts/main_body/box_main";
+@import "layouts/footer/footer";
 
 // Components
 @import "components/navigation/nav";
@@ -44,3 +45,6 @@
 @import "components/box__form/form__input";
 @import "components/box__form/form__btn";
 @import "components/box__form/form__note";
+
+@import "components/box__footer/footer__primary/footer__hdl";
+@import "components/box__footer/footer__primary/footer__sections";
