@@ -635,6 +635,11 @@ body {
   text-decoration: underline;
 }
 
+.box__firefox .screen__img {
+  max-width: 616.766px;
+  max-height: 387.109px;
+}
+
 .safe__net .dino {
   width: 50%;
   max-width: 346px;
