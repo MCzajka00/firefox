@@ -1,25 +1,28 @@
 .box {
   width: 100%;
-  max-width: 1228px;
+  max-width: 1641px;
   height: 88px;
   padding: 0 96px;
-  margin: 0 206.5px;
+  // margin: 0 206.5px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   .download {
+    width: 119.234px;
+    height: 21px;
+    padding: 4px 24px;
     border: 2px solid #0060df;
+    border-radius: 4px;
     color: #0060df;
     text-decoration: none;
     font-family: "Inter Bold", sans-serif;
-    font-size: 1rem;
+    font-size: 0.875rem;
     line-height: 1.5;
     box-sizing: border-box;
     cursor: pointer;
     display: inline-block;
     font-weight: 700;
-    padding: 8px 16px;
   }
 }
 
