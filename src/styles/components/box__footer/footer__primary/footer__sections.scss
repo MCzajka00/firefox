@@ -1,11 +1,24 @@
-.footer_sections {
+.footer__sections {
   width: 1228px;
   height: 176px;
   padding-bottom: 48px;
   border-bottom: 1px solid #42425a;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
   display: flex;
+  text-decoration: none;
   .section {
-    display: flex;
+    flex-direction: column;
+    .section__header {
+      font-family: "Inter Bold", sans-serif;
+      font-size: 16px;
+      padding: 8px 0px;
+      margin: 0;
+    }
+    .footer__list {
+      list-style: none;
+    }
   }
 }
 .section:first-child {
@@ -13,4 +26,25 @@
   height: 168px;
   padding-right: 24px;
   margin-bottom: 8px;
+}
+
+.section:nth-child(2) {
+  width: 295px;
+  height: 168px;
+  margin: 0px 0px 8px;
+  padding: 0px 24px;
+}
+
+.section:nth-child(3) {
+  width: 295px;
+  height: 136px;
+  margin: 0px 0px 8px;
+  padding: 0px 24px;
+}
+
+.section:nth-child(4) {
+  width: 270px;
+  height: 136px;
+  margin: 0px 0px 8px;
+  padding: 0px 0px 0px 24px;
 }

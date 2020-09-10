@@ -1,4 +1,16 @@
 .footer__list {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  text-decoration: none;
+  padding: 0;
+  .section__list {
+    padding: 4px 0px;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }

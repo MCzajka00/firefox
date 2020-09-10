@@ -40,9 +40,13 @@
             ><br />
             <a href="#" class="privacy">Zasady ochrony prywatności Firefoxa</a>
           </div>
-          <!-- <div class="screen__img">
-            <img src="./dist/images/screen.png" alt="Screen image" />
-          </div> -->
+          <div class="screen__img">
+            <img
+              class="screen"
+              src="./dist/images/screen.png"
+              alt="Screen image"
+            />
+          </div>
         </section>
       </main>
 
@@ -122,11 +126,6 @@
 
         <section class="box__picto">
           <div class="box__piece">
-            <img
-              class="picto__enlarg"
-              src="./dist/images/picto.png"
-              alt="Enlargement picture"
-            />
             <a href="#" class="picto__title">
               <h2>Rozszerzenia</h2>
             </a>
@@ -137,11 +136,6 @@
             >
           </div>
           <div class="box__piece">
-            <img
-              class="picto__work"
-              src="./dist/images/picto.png"
-              alt="Work picture"
-            />
             <a href="#" class="picto__title">
               <h2>Praca</h2>
             </a>
@@ -151,11 +145,6 @@
             >
           </div>
           <div class="box__piece">
-            <img
-              class="picto__help"
-              src="./dist/images/picto.png"
-              alt="Help picture"
-            />
             <a href="#" class="picto__title">
               <h2>Potrzebujesz pomocy?</h2>
             </a>
@@ -204,44 +193,41 @@
               <section class="section">
                 <h5 class="section__header">Firma</h5>
                 <ul class="footer__list">
-                  <a href="#" class="section__list">O nas</a>
-                  <a href="#" class="section__list">Centrum prasowe</a>
-                  <a href="#" class="section__list">Praca</a>
+                  <li><a href="#" class="section__list">O nas</a><br /></li>
+                  <li>
+                    <a href="#" class="section__list">Centrum prasowe</a><br />
+                  </li>
+                  <li><a href="#" class="section__list">Praca</a><br /></li>
                 </ul>
               </section>
               <section class="section">
                 <h5 class="section__header">Deweloperzy</h5>
                 <ul class="footer__list">
                   <li>
-                    <a href="#" class="section__list">Testuj nowe funkcje</a>
+                    <a href="#" class="section__list">Testuj nowe funkcje</a
+                    ><br />
                   </li>
                   <li>
-                    <a href="#" class="section__list">Dokumentacja MDN</a>
+                    <a href="#" class="section__list">Dokumentacja MDN</a><br />
                   </li>
-                  <li>
-                    <a href="#" class="section__list">Narzędzia</a>
-                  </li>
+                  <li><a href="#" class="section__list">Narzędzia</a><br /></li>
                 </ul>
               </section>
               <section class="section">
                 <h5 class="section__header">Zasoby</h5>
                 <ul class="footer__list">
                   <li>
-                    <a href="#" class="section__list">Prywatność</a>
+                    <a href="#" class="section__list">Prywatność</a><br />
                   </li>
-                  <li>
-                    <a href="#" class="section__list">Kontakt</a>
-                  </li>
+                  <li><a href="#" class="section__list">Kontakt</a><br /></li>
                 </ul>
               </section>
               <section class="section">
                 <h5 class="section__header">Pomoc</h5>
                 <ul class="footer__list">
+                  <li><a href="#" class="section__list">Wsparcie</a><br /></li>
                   <li>
-                    <a href="#" class="section__list">Wsparcie</a>
-                  </li>
-                  <li>
-                    <a href="#" class="section__list">Zgłoś błąd</a>
+                    <a href="#" class="section__list">Zgłoś błąd</a><br />
                   </li>
                 </ul>
               </section>
@@ -249,11 +235,98 @@
           </nav>
 
           <nav class="footer__secondary">
-            <div class="footer__language"></div>
-            <div class="footer__social"></div>
+            <div class="footer__language">
+              <form
+                class="lang__switcher"
+                method="get"
+                id="lang_form"
+                action="#"
+              >
+                <a class="lang__switcher__link" href="#">Język</a><br />
+                <select
+                  name="lang"
+                  id="page_language_select"
+                  class="lang__switcher__select"
+                  data-previous-language="pl"
+                >
+                  <option lang="ar" value="ar">عربي</option>
+                  <option lang="ast" value="ast">Asturianu</option>
+                  <option lang="bg" value="bg">Български</option>
+                  <option lang="de" value="de">Deutsch</option>
+                  <option lang="en-US" value="en-US">English</option>
+                  <option lang="es-ES" value="es-ES">
+                    Español (de España)
+                  </option>
+                  <option lang="fr" value="fr">Français</option>
+                  <option lang="it" value="it">Italiano</option>
+                  <option lang="pl" value="pl" selected="">Polski</option>
+                  <option lang="ru" value="ru">Русский</option>
+                </select>
+              </form>
+            </div>
+
+            <ul class="footer__social">
+              <li class="li__social">
+                <a class="twitter" href="https://twitter.com/mozilla">
+                  Twitter
+                </a>
+              </li>
+              <li class="li__social">
+                <a class="instagram" href="https://instagram.com/mozilla">
+                  Instagram
+                </a>
+              </li>
+            </ul>
+            <br />
+
             <div class="footer__legal">
-              <p class="footer__license"></p>
-              <ul class="footer__terms"></ul>
+              <p class="footer__license">
+                Odwiedź
+                <a class="license__link" href="https://foundation.mozilla.org"
+                  >Mozilla Foundation</a
+                >
+                , nadrzędną organizację
+                <a class="license__link" href="/pl/">Mozilla Corporation</a>
+                .
+                <br />
+                Fragmenty treści tej witryny: ©1998–2020. Prawa autorskie należą
+                do poszczególnych współtwórców witryny mozilla.org. Treść strony
+                dostępna na licencji
+                <a
+                  class="license__link"
+                  href="/pl/foundation/licensing/website-content/"
+                  rel="license"
+                  >Creative&nbsp;Commons</a
+                >
+                .
+              </p>
+              <ul class="footer__terms">
+                <li>
+                  <a class="terms__link" href="/pl/privacy">Prywatność</a>
+                </li>
+                <li>
+                  <a class="terms__link" href="/pl/privacy/websites"
+                    >Zasady ochrony prywatności</a
+                  >
+                </li>
+                <li>
+                  <a class="terms__link" href="/pl/privacy/websites/#cookies"
+                    >Ciasteczka</a
+                  >
+                </li>
+                <li>
+                  <a class="terms__link" href="/pl/about/legal"
+                    >Podstawa prawna</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="terms__link"
+                    href="/plabout/governance/policies/participation/"
+                    >Wytyczne uczestnictwa społeczności</a
+                  >
+                </li>
+              </ul>
             </div>
           </nav>
         </section>

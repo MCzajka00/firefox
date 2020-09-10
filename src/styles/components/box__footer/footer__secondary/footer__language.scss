@@ -1,0 +1,37 @@
+.footer__language {
+  width: 175px;
+  height: 91px;
+  margin-bottom: 24px;
+  float: right;
+  zoom: 1;
+  .lang__switcher__link {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 24px;
+    margin-bottom: 8px;
+    &:hover {
+      cursor: pointer;
+      text-decoration: none;
+    }
+  }
+  .lang__switcher__select {
+    background-position: right 8px top 50%;
+    padding: 8px calc(1.5rem + 16px) 8px 8px;
+    appearance: none;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 2px solid #9595a2;
+    margin-top: 8px;
+    margin: 0 0 24px;
+    background-image: url("data:image/svg+xml,%3Csvg width='24px' height='24px' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline stroke='%239595a3' stroke-width='2' points='5 9 12 16 19 9'%3E%3C/polyline%3E%3C/g%3E%3C/svg%3E"),
+      linear-gradient(to bottom, #fff 0, #fff 100%);
+    background-repeat: no-repeat;
+    background-size: 1.5rem auto, 100%;
+    display: block;
+    font-weight: 400;
+    max-width: 100%;
+    text-overflow: ellipsis;
+  }
+}

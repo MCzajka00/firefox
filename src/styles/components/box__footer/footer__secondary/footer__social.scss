@@ -1,0 +1,31 @@
+.footer__social {
+  width: 83.38px;
+  height: 33px;
+  list-style: none;
+  float: right;
+  .li__social {
+    padding: 0 0 16px 24px;
+    margin: 0;
+    display: inline-block;
+    vertical-align: bottom;
+    .twitter {
+      clear: both;
+      background-image: url(./../../../dist/images/twitter.svg);
+      background-repeat: no-repeat;
+      &:visited {
+        color: #ffffff;
+        font-weight: 400;
+        text-decoration: underline;
+      }
+    }
+    .instagram {
+      background-image: url(./../../../dist/images/instagram.svg);
+      background-repeat: no-repeat;
+      &:visited {
+        color: #ffffff;
+        font-weight: 400;
+        text-decoration: underline;
+      }
+    }
+  }
+}
