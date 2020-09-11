@@ -482,7 +482,8 @@ body {
 
 .box__main {
   max-width: 1420px;
-  height: 1880px;
+  max-height: 2099px;
+  min-height: 1880px;
   padding: 24px 96px;
   margin: 0 206.5px;
 }
@@ -781,6 +782,10 @@ body {
   margin-bottom: 0px;
 }
 
+.box__form {
+  min-height: 605px;
+}
+
 .form__place {
   width: 438px;
   height: 362px;
@@ -794,6 +799,42 @@ body {
 .place__newsletter {
   height: 386px;
   margin: 0;
+}
+
+.newsletter__details .input__det {
+  background-image: url(./../../../../dist/images/form-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 1.5rem auto, 100%;
+}
+.newsletter__details .placeholder {
+  font-size: 1rem;
+  font-family: Inter, sans-serif;
+}
+.newsletter__details .format__format {
+  height: 73px;
+  font-size: 0.875rem;
+  font-family: "Inter Bold", sans-serif;
+  border: hidden;
+  margin: 0;
+  padding: 0;
+}
+.newsletter__details .format__format .format__option {
+  padding-right: 8px;
+}
+.newsletter__details .format__privacy {
+  height: 48px;
+  margin-bottom: 20px;
+  font-size: 0.875rem;
+  font-family: "Inter Bold", sans-serif;
+  padding-right: 8px;
+}
+.newsletter__details .format__privacy .privacy__safe {
+  color: #0060df;
+}
+.newsletter__details .format__privacy .privacy__safe:hover {
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .form__img {
@@ -830,7 +871,7 @@ body {
 
 .form__input {
   width: 100%;
-  height: 30px;
+  height: 40px;
   padding: 4px 8px;
   margin-top: 0 !important;
   font-family: Inter, sans-serif;
@@ -839,11 +880,17 @@ body {
   box-sizing: border-box;
   background: #fff;
   border-radius: 4px;
-  border: 1px solid #42425a;
+  border: 2px solid #9595a2;
   display: inline-block;
 }
 .form__input:hover {
   cursor: text;
+  border: 2px solid #0250bb;
+}
+.form__input:focus {
+  outline: 0;
+  border-color: #0060df;
+  box-shadow: 0 0 0 2px rgba(0, 144, 237, 0.5);
 }
 
 .form__btn {
@@ -857,18 +904,18 @@ body {
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.5;
-  text-decoration: none !important;
+  text-decoration: none;
   box-sizing: border-box;
   background-color: #000;
   color: #fff;
-  border-radius: 2px;
+  border-radius: 4px;
   cursor: pointer;
   display: inline-block;
   transition: background-color 0.1s, box-shadow 0.1s, color 0.1s, transform 0.1s;
   text-align: center;
 }
 .form__btn:hover {
-  background-color: #fff;
+  background-color: #ededf0;
   color: #000;
 }
 
@@ -878,7 +925,7 @@ body {
   margin-top: -8px;
   font-family: Inter, sans-serif;
   font-size: 0.875rem;
-  color: #5e5e72;
+  color: #000;
   line-height: 1.5;
   font-weight: 400;
   display: block;

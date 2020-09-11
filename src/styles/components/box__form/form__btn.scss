@@ -9,17 +9,17 @@
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.5;
-  text-decoration: none !important;
+  text-decoration: none;
   box-sizing: border-box;
   background-color: #000;
   color: #fff;
-  border-radius: 2px;
+  border-radius: 4px;
   cursor: pointer;
   display: inline-block;
   transition: background-color 0.1s, box-shadow 0.1s, color 0.1s, transform 0.1s;
   text-align: center;
   &:hover {
-    background-color: #fff;
+    background-color: #ededf0;
     color: #000;
     // dodać cień? na przycisku
   }
