@@ -4,12 +4,27 @@
   height: 395.109px;
   padding: 48px 0;
   margin: 0;
+
+  @media screen and (min-width: 1024px) {
+    padding: 48px 0;
+  }
+
+  @media screen and (min-width: 768px) {
+    text-align: left;
+    min-height: 300px;
+  }
+
   .box__firefox {
     width: 1228px;
     max-height: 347.109px;
     padding: 24px 96px;
     margin: 0 206.5px;
     display: flex;
+    @media screen and (min-width: 1024px) {
+      .box__firefox {
+        padding: 24px 96px;
+      }
+    }
     .firefox {
       display: flex;
       flex-direction: column;

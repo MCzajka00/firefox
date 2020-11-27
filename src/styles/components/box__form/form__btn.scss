@@ -24,3 +24,46 @@
     // dodać cień? na przycisku
   }
 }
+
+.newsletter__details {
+  display: none;
+  &.show {
+    display: flex;
+    flex-direction: column;
+  }
+  .input__det {
+    background-image: url(./../../../../dist/images/form-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 1.5rem auto, 100%;
+  }
+  .placeholder {
+    font-size: 1rem;
+    font-family: Inter, sans-serif;
+  }
+  .format__format {
+    height: 73px;
+    font-size: 0.875rem;
+    font-family: "Inter Bold", sans-serif;
+    border: hidden;
+    margin: 0;
+    padding: 0;
+    .format__option {
+      padding-right: 8px;
+    }
+  }
+  .format__privacy {
+    height: 48px;
+    margin-bottom: 20px;
+    font-size: 0.875rem;
+    font-family: "Inter Bold", sans-serif;
+    padding-right: 8px;
+    .privacy__safe {
+      color: #0060df;
+      &:hover {
+        text-decoration: none;
+        cursor: pointer;
+      }
+    }
+  }
+}

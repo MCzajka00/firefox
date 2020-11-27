@@ -33,7 +33,6 @@
       background-image: url("../images/picto.png");
       background-repeat: no-repeat;
       background-size: 100px 300px;
-      // background-position: top center;
     }
     &:visited {
       // podswietlają się wszystkie - dlatego że href jest ten sam
@@ -52,6 +51,6 @@
     font-size: 1rem;
     line-height: 1.5;
     color: #1f2033;
-    margin-bottom: 0px;
+    margin: auto;
   }
 }
