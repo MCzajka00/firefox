@@ -1,0 +1,29 @@
+.box {
+  width: 100%;
+  max-width: 1228px;
+  height: 88px;
+  padding: 0 96px;
+  margin: 0 206.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  .download {
+    border: 2px solid #0060df;
+    color: #0060df;
+    text-decoration: none;
+    font-family: "Inter Bold", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    padding: 8px 16px;
+  }
+}
+
+.download:hover {
+  background-color: #0060df;
+  color: #fff;
+}

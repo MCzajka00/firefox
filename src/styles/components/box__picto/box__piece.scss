@@ -1,0 +1,68 @@
+.box__piece {
+  width: 408.922px;
+  height: 327px;
+  padding: 48px 0px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  &:nth-child(1) .picto__title {
+    &::before {
+      background-position: center top;
+    }
+  }
+  &:nth-child(2) .picto__title {
+    &::before {
+      background-position: center;
+    }
+  }
+  &:nth-child(3) .picto__title {
+    &::before {
+      background-position: center bottom;
+    }
+  }
+  // align-items: center;
+  .picto__title {
+    width: 240px;
+    // height: 35px;
+    // margin-top: 0;
+    // margin-bottom: 32px;
+    // font-family: "Zilla Slab Bold", Inter, sans-serif;
+    // font-size: 1.3rem;
+    // font-style: bold;
+    // line-height: 1.1;
+    // font-weight: 700;
+    // color: #0060df;
+    // display: flex;
+    text-align: center;
+    position: relative;
+    &::before {
+      content: "";
+      width: 100%;
+      height: 100px;
+      display: block;
+      margin-bottom: 2rem;
+      background-image: url("../images/picto.png");
+      background-repeat: no-repeat;
+      background-size: 100px 300px;
+      // background-position: top center;
+    }
+    &:visited {
+      // podswietlają się wszystkie.- dlatego że href jest ten sam
+      // color: #b833e1;
+    }
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .picto__desc {
+    width: 240px;
+    height: 120px;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #1f2033;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,18 @@
+.main__header {
+  width: 100%;
+  max-width: 1833px;
+  height: 395.109px;
+  padding: 48px 0;
+  margin: 0;
+  .box__firefox {
+    width: 1228px;
+    max-height: 347.109px;
+    padding: 24px 96px;
+    margin: 0 206.5px;
+    display: flex;
+    .firefox {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
